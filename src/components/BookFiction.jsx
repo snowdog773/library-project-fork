@@ -1,18 +1,18 @@
 // import * as React from 'react';
-import AspectRatio from '@mui/joy/AspectRatio';
-import Button from '@mui/joy/Button';
-import Card from '@mui/joy/Card';
-import CardContent from '@mui/joy/CardContent';
-import CardOverflow from '@mui/joy/CardOverflow';
-import Link from '@mui/joy/Link';
+import AspectRatio from "@mui/joy/AspectRatio";
+import Button from "@mui/joy/Button";
+import Card from "@mui/joy/Card";
+import CardContent from "@mui/joy/CardContent";
+import CardOverflow from "@mui/joy/CardOverflow";
+import Link from "@mui/joy/Link";
 
 export default function ProductCard() {
   return (
-    <Card sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg'}}>
+    <Card sx={{ width: 320, maxWidth: "100%", boxShadow: "lg" }}>
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
-        <img
-            src="./src/assets/contemporary-fic.png"
+          <img
+            src="./assets/contemporary-fic.png"
             srcSet=""
             loading="lazy"
             alt=""
@@ -25,7 +25,7 @@ export default function ProductCard() {
           color="neutral"
           textColor="text.primary"
           overlay
-          sx={{ fontWeight: 'md' }}
+          sx={{ fontWeight: "md" }}
         >
           Our Contemporary Fiction top picks!
         </Link>
